@@ -13,7 +13,7 @@ provider "linode" {
     token = var.linode_pat_token
     }
 resource "linode_instance" "cfe-pyapp" {
-    count = "1"
+    count = "2"
     image = "linode/ubuntu20.04"
     label = "pyapp-${count.index + 1}"
     group = "Iac-Learner"
