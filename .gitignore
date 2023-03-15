@@ -16,6 +16,7 @@ crash.log
 #
 *.tfvars
 *.hcl
+backend
 
 # Ignore override files as they are usually used to override resources locally and so
 # are not checked in
@@ -173,3 +174,4 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
